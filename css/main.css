@@ -1,0 +1,142 @@
+@import url(./fonts.css);
+
+:root {
+    --btn-color: #DE2E54; 
+    --primary-color: #0EB4C1;
+    --link-color: #222222;
+    --white: #fff;
+    --text-color: #444444;
+    --fm_1: "Open Sans";
+    --fm_2: "OpenSans Condenced"
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: var(--fm_1);
+}
+
+.all-btn{
+    max-width: 189px;
+    width: 100%;
+    background-color: var(--btn-color);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 12px 0;
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: var(--fm_2);
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.5s;
+    border: 2px solid var(--btn-color);
+}
+
+.all-btn:hover{
+    background-color: var(--white);
+    color: var(--btn-color);
+}
+
+.nav{
+    padding: 24px 0;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--link-color);
+    transition: .5s;
+}
+
+.nav_logo:hover{
+    color: var(--btn-color);
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.nav_link{
+    color: var(--link-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.nav_link:hover{
+    color: var(--btn-color);
+}
+
+
+/*nav end*/
+
+/*header start*/
+
+.header_main{
+    background: var(--primary-color);
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title{
+    color: var(--white);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--fm_2);
+    max-width: 500px;
+    width: 100%;
+}
+
+.header_text{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 440px;
+    line-height: 27px;
+    margin: 16px 0 36px;
+}
+
+.header_image{
+    object-fit: cover;
+}
+
+/*header start*/
+
+
