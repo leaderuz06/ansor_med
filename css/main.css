@@ -137,6 +137,138 @@ body{
     object-fit: cover;
 }
 
-/*header start*/
+/*header end*/
+
+
+/* services start*/
+
+.services{
+    padding: 120px 0;
+}
+
+.services_title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--fm_2);
+    margin-bottom: 56px;
+}
+
+.services_item{
+    display: flex;
+    justify-content: space-between;
+    max-width: 864px;
+    width: 100%;
+    margin: auto;
+    column-gap: 64px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.services_img{
+    object-fit: cover;
+}
+
+.services_desc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.services_desc_text{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--fm_2);
+    color: var(--link-color);
+}
+
+.services_desc_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 600px;
+    width: 100%;
+}
+
+.services_btn{
+    margin: auto;
+    display: block;
+}
+
+
+/* services end*/
+
+
+/* contact */
+
+.contact{
+    background-color: var(--primary-color);
+    padding: 64px 0;
+}
+
+.contact_title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--fm_2);
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.contact_link{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.contact_btn{
+    padding: 12px 24px;
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--fm_2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 18px;
+    transition: .5s;
+}
+
+.contact_btn:hover{
+    background-color: var(--btn-color);
+    border: 2px solid var(--btn-color);
+}
+
+/*contact end*/
+
+/* footer*/
+
+.footer{
+    background-color: var(--link-color);
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.footer .nav_logo{
+    color: var(--white);
+    transition: .5s;
+}
+
+.footer .nav_logo:hover,
+footer .nav_link:hover{
+    color: var(--btn-color);
+}
+
+.footer .nav_link{
+    color: var(--white);
+}
 
 
